@@ -1,4 +1,10 @@
 
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
 * { margin: 0;
      padding: 0; 
      box-sizing: border-box;
@@ -20,13 +26,13 @@
 }
 
 .nav-right button {
- 
     margin: 12px 0px;
     padding: 10px 30px;
     background-color: rgb(14, 153, 218);
-    color: rgb(58, 11, 11);
+    color: rgb(230, 230, 230);
     border: none;
     border-radius: 6px;
+    box-shadow: 0 0 3px rgb(29, 29, 29);
     font-size: 16px;
     cursor: pointer;
     transition:  0.3s ease;
@@ -67,13 +73,15 @@ padding: 0 30px;
 }
 
 .cta-area { 
-    display: flex; justify-content: center; align-items: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .btn {
     padding: 20px 50px;
     font-size: 30px;
-    font-weight: 15px;
+    /* font-weight: 15px; */
     background-color: #36b5ff;
     color: white;
     border-radius: 50px;
@@ -111,15 +119,16 @@ font-size: 20px;
 }
 
 .see-how {
+    border:1px solid white;
     display: flex;
     gap: 5px;
-    font-size: 25px;
-    padding-top: 20px;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
 }
 .see-how img {
-    gap: 40px;
-    width: 40x;
-    height: 40px;
+    gap: 20px;
+    width: 20x;
+    height: 25px;
     /* padding-top: 10px; */
 }
 
@@ -206,8 +215,9 @@ font-size: 20px;
 }
 
 .CheckCircle img {
-
     height: 15px;
+
+    
 }
 .CheckCircle {
     padding: 5px 5px 5px 5px;
@@ -250,11 +260,26 @@ font-size: 20px;
   
 }
 
+.gap{
+    padding-top: 20px 20px 20px 20px;
+}
 #fde{
     padding-top: 5px;
 }
 
-.Footer-1{
+.Footer-1{ 
     background-image: url(Sections/Footer.png);
    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.footer-image{
+    background-repeat: no-repeat;
+    width: 1600px;
+    padding:0 px 50px
+}
+
+.f-image {
+    padding: 100px;
+    background-size: cover;
 }
